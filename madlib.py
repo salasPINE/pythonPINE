@@ -5,7 +5,7 @@ print("Simple MadLib!")
 N1 = input('Type a noun: ')
 N2 = input('Type a noun: ')
 N3 = input('Type a noun: ')
-V1 = input('Type an action verb: ')
+V1 = input('Type a verb: ')
 
 # The NOUN was scared of the NOUN because it was trying to VERB with its NOUN.
 
