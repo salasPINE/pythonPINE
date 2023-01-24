@@ -1,5 +1,5 @@
 # Jorge Salas
-# Strings and Text
+# Exercise 6 - Strings and Text
 # ex6_salas.py
 
 types_of_people = 10

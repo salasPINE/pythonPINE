@@ -1,16 +1,14 @@
-# Jorge Salas
-# Exercise 8 - Printing, Printing
-# ex8_salas.py
+import turtle
 
-formatter = "{} {} {} {}"
+# shortcut to make it easier to write the code
+t = turtle.Turtle()
+t.shape("turtle")
 
-print(formatter.format(1,2,3,4))
-print(formatter.format("one", "two", "three", "four"))
-print(formatter.format(True, False, False, True))
-print(formatter.format(formatter, formatter, formatter, formatter))
-print(formatter.format(
-  "Try your",
-  "Own text here",
-  "Maybe a poem",
-  "Or a song about fear"
-))
+# change background color to black
+turtle.bgcolor('black')
+
+# loops through the four colors to make a box
+for c in ['red', 'green', 'blue', 'yellow']:
+    t.color(c)
+    t.forward(100)
+    t.left(90)
